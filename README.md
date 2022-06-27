@@ -58,3 +58,18 @@ Buka Kembali file app/config/Routes.php, kemudian tambahkan routing untuk artike
       $routes->get('/artikel/(:any)', 'Artikel::view/$1');
 
 ![8.png](gambar/8.png)
+
+Membuat Menu Admin
+Menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index().
+
+![9.png](gambar/9.png)
+
+Selanjutnya buat view untuk tampilan admin dengan nama admin_index.php
+
+![10.png](gambar/10.png)
+
+Tambahkan routing untuk menu admin seperti berikut:
+
+![11.png](gambar/11.png)
+
+![12.png](gambar/12.png)
