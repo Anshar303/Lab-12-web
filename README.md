@@ -41,3 +41,20 @@ Kemudian coba tambahkan beberapa data pada database agar dapat ditampilkan datan
 sehingga akan ditampilkan hasilnya.
 
 ![5.png](gambar/5.png)
+
+Membuat Tampilan Detail Artikel
+Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. Tambahkan fungsi baru pada Controller Artikel dengan nama view().
+
+![6.png](gambar/6.png)
+
+Membuat View Detail
+Buat view baru untuk halaman detail dengan nama app/views/artikel/detail.php.
+
+![7.png](gambar/7.png)
+
+Membuat Routing untuk artikel detail
+Buka Kembali file app/config/Routes.php, kemudian tambahkan routing untuk artikel detail.
+
+      $routes->get('/artikel/(:any)', 'Artikel::view/$1');
+
+![8.png](gambar/8.png)
