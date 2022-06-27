@@ -73,3 +73,30 @@ Tambahkan routing untuk menu admin seperti berikut:
 ![11.png](gambar/11.png)
 
 ![12.png](gambar/12.png)
+
+Menambah Data Artikel
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama add().
+
+![13.png](gambar/13.png)
+
+Kemudian buat view untuk form tambah dengan nama form_add.php
+
+![14.png](gambar/14.png)
+
+![15.png](gambar/15.png)
+
+Mengubah Data
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama edit().
+
+![16.png](gambar/16.png)
+
+Kemudian buat view untuk form tambah dengan nama form_edit.php
+
+![17.png](gambar/17.png)
+
+![18.png](gambar/18.png)
+
+Menghapus Data
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama delete().
+
+![19.png](gambar/19.png)
